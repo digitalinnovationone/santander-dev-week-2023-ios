@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D593F592A6ECDDA00888F01 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D593F582A6ECDDA00888F01 /* AccountViewModel.swift */; };
+		6D593F5C2A6ECF7600888F01 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 6D593F5B2A6ECF7600888F01 /* Then */; };
+		6D593F5E2A6ED1FE00888F01 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D593F5D2A6ED1FE00888F01 /* BalanceViewModel.swift */; };
+		6D593F602A6ED48800888F01 /* FeatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D593F5F2A6ED48800888F01 /* FeatureViewModel.swift */; };
+		6D593F622A6F147A00888F01 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D593F612A6F147A00888F01 /* CardViewModel.swift */; };
+		6D593F642A6F2DFD00888F01 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D593F632A6F2DFD00888F01 /* NewsViewModel.swift */; };
+		6D8B30B62A6418E300A57A55 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B30B52A6418E300A57A55 /* Card.swift */; };
+		6D8B30BA2A64534800A57A55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B30B92A64534800A57A55 /* Extensions.swift */; };
+		6D8B30BC2A6605CA00A57A55 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B30BB2A6605CA00A57A55 /* HomeViewModel.swift */; };
+		6DC068602A6AF0010025D172 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0685F2A6AF0010025D172 /* AccountView.swift */; };
+		6DC068622A6AF04A0025D172 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC068612A6AF04A0025D172 /* HomeView.swift */; };
+		6DC068642A6B14130025D172 /* NavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC068632A6B14130025D172 /* NavigationBarAppearance.swift */; };
+		6DC068672A6B17940025D172 /* OpenSans_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DC068652A6B17940025D172 /* OpenSans_Condensed-Bold.ttf */; };
+		6DC068682A6B17940025D172 /* OpenSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DC068662A6B17940025D172 /* OpenSans_Condensed-SemiBold.ttf */; };
+		6DC0686B2A6B1DD20025D172 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0686A2A6B1DD20025D172 /* BalanceView.swift */; };
+		6DC0686D2A6B33740025D172 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0686C2A6B33740025D172 /* FeatureView.swift */; };
+		6DC0686F2A6B38C30025D172 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0686E2A6B38C30025D172 /* CardView.swift */; };
+		6DC068712A6B3A570025D172 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC068702A6B3A570025D172 /* NewsView.swift */; };
+		6DC068732A6B515E0025D172 /* PageControlAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC068722A6B515E0025D172 /* PageControlAppearance.swift */; };
+		6DC068752A6B52510025D172 /* OpenSans_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DC068742A6B52510025D172 /* OpenSans_Condensed-Regular.ttf */; };
+		6DC0687A2A6BE75C0025D172 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC068792A6BE75C0025D172 /* News.swift */; };
+		6DC0687D2A6E9BDA0025D172 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC0687C2A6E9BDA0025D172 /* Kingfisher */; };
+		6DC068802A6E9EFB0025D172 /* PocketSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC0687F2A6E9EFB0025D172 /* PocketSVG */; };
+		6DC068832A6E9F360025D172 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC068822A6E9F360025D172 /* AsyncImage.swift */; };
+		6DFA6D7C2A62191E008E70DE /* SantanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA6D7B2A62191E008E70DE /* SantanderApp.swift */; };
+		6DFA6D802A621920008E70DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFA6D7F2A621920008E70DE /* Assets.xcassets */; };
+		6DFA6D832A621920008E70DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFA6D822A621920008E70DE /* Preview Assets.xcassets */; };
+		6DFA6D8B2A62211C008E70DE /* HomeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA6D8A2A62211C008E70DE /* HomeAPIClient.swift */; };
+		6DFA6D8E2A62269A008E70DE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA6D8D2A62269A008E70DE /* Home.swift */; };
+		6DFA6D902A622F92008E70DE /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA6D8F2A622F92008E70DE /* Account.swift */; };
+		6DFA6D922A622FD6008E70DE /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA6D912A622FD6008E70DE /* Feature.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D593F582A6ECDDA00888F01 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		6D593F5D2A6ED1FE00888F01 /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
+		6D593F5F2A6ED48800888F01 /* FeatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewModel.swift; sourceTree = "<group>"; };
+		6D593F612A6F147A00888F01 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		6D593F632A6F2DFD00888F01 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		6D8B30B52A6418E300A57A55 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6D8B30B92A64534800A57A55 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6D8B30BB2A6605CA00A57A55 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6DC0685F2A6AF0010025D172 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		6DC068612A6AF04A0025D172 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6DC068632A6B14130025D172 /* NavigationBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarAppearance.swift; sourceTree = "<group>"; };
+		6DC068652A6B17940025D172 /* OpenSans_Condensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		6DC068662A6B17940025D172 /* OpenSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		6DC068692A6B17C00025D172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6DC0686A2A6B1DD20025D172 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		6DC0686C2A6B33740025D172 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
+		6DC0686E2A6B38C30025D172 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6DC068702A6B3A570025D172 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		6DC068722A6B515E0025D172 /* PageControlAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlAppearance.swift; sourceTree = "<group>"; };
+		6DC068742A6B52510025D172 /* OpenSans_Condensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		6DC068792A6BE75C0025D172 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		6DC068822A6E9F360025D172 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		6DFA6D782A62191E008E70DE /* Santander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFA6D7B2A62191E008E70DE /* SantanderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantanderApp.swift; sourceTree = "<group>"; };
+		6DFA6D7F2A621920008E70DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DFA6D822A621920008E70DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DFA6D8A2A62211C008E70DE /* HomeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPIClient.swift; sourceTree = "<group>"; };
+		6DFA6D8D2A62269A008E70DE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6DFA6D8F2A622F92008E70DE /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6DFA6D912A622FD6008E70DE /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DFA6D752A62191E008E70DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC0687D2A6E9BDA0025D172 /* Kingfisher in Frameworks */,
+				6D593F5C2A6ECF7600888F01 /* Then in Frameworks */,
+				6DC068802A6E9EFB0025D172 /* PocketSVG in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D8B30B72A64522400A57A55 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D8B30BB2A6605CA00A57A55 /* HomeViewModel.swift */,
+				6D593F582A6ECDDA00888F01 /* AccountViewModel.swift */,
+				6D593F5D2A6ED1FE00888F01 /* BalanceViewModel.swift */,
+				6D593F5F2A6ED48800888F01 /* FeatureViewModel.swift */,
+				6D593F612A6F147A00888F01 /* CardViewModel.swift */,
+				6D593F632A6F2DFD00888F01 /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6D8B30B82A64533A00A57A55 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D8B30B92A64534800A57A55 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DC0685E2A6AEF7F0025D172 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0685F2A6AF0010025D172 /* AccountView.swift */,
+				6DC068612A6AF04A0025D172 /* HomeView.swift */,
+				6DC0686A2A6B1DD20025D172 /* BalanceView.swift */,
+				6DC0686C2A6B33740025D172 /* FeatureView.swift */,
+				6DC0686E2A6B38C30025D172 /* CardView.swift */,
+				6DC068702A6B3A570025D172 /* NewsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DC068812A6E9F210025D172 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6DC068632A6B14130025D172 /* NavigationBarAppearance.swift */,
+				6DC068722A6B515E0025D172 /* PageControlAppearance.swift */,
+				6DC068822A6E9F360025D172 /* AsyncImage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6DFA6D6F2A62191E008E70DE = {
+			isa = PBXGroup;
+			children = (
+				6DFA6D7A2A62191E008E70DE /* Santander */,
+				6DFA6D792A62191E008E70DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DFA6D792A62191E008E70DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DFA6D782A62191E008E70DE /* Santander.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DFA6D7A2A62191E008E70DE /* Santander */ = {
+			isa = PBXGroup;
+			children = (
+				6DFA6D8C2A622278008E70DE /* Model */,
+				6DC0685E2A6AEF7F0025D172 /* View */,
+				6D8B30B72A64522400A57A55 /* ViewModel */,
+				6DFA6D892A6220E4008E70DE /* Network */,
+				6D8B30B82A64533A00A57A55 /* Extensions */,
+				6DC068812A6E9F210025D172 /* Utils */,
+				6DFA6D7B2A62191E008E70DE /* SantanderApp.swift */,
+				6DC068692A6B17C00025D172 /* Info.plist */,
+				6DFA6D7F2A621920008E70DE /* Assets.xcassets */,
+				6DC068652A6B17940025D172 /* OpenSans_Condensed-Bold.ttf */,
+				6DC068742A6B52510025D172 /* OpenSans_Condensed-Regular.ttf */,
+				6DC068662A6B17940025D172 /* OpenSans_Condensed-SemiBold.ttf */,
+				6DFA6D812A621920008E70DE /* Preview Content */,
+			);
+			path = Santander;
+			sourceTree = "<group>";
+		};
+		6DFA6D812A621920008E70DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DFA6D822A621920008E70DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DFA6D892A6220E4008E70DE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6DFA6D8A2A62211C008E70DE /* HomeAPIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6DFA6D8C2A622278008E70DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DFA6D8D2A62269A008E70DE /* Home.swift */,
+				6DFA6D8F2A622F92008E70DE /* Account.swift */,
+				6DFA6D912A622FD6008E70DE /* Feature.swift */,
+				6D8B30B52A6418E300A57A55 /* Card.swift */,
+				6DC068792A6BE75C0025D172 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DFA6D772A62191E008E70DE /* Santander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DFA6D862A621920008E70DE /* Build configuration list for PBXNativeTarget "Santander" */;
+			buildPhases = (
+				6DFA6D742A62191E008E70DE /* Sources */,
+				6DFA6D752A62191E008E70DE /* Frameworks */,
+				6DFA6D762A62191E008E70DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Santander;
+			packageProductDependencies = (
+				6DC0687C2A6E9BDA0025D172 /* Kingfisher */,
+				6DC0687F2A6E9EFB0025D172 /* PocketSVG */,
+				6D593F5B2A6ECF7600888F01 /* Then */,
+			);
+			productName = Santander;
+			productReference = 6DFA6D782A62191E008E70DE /* Santander.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DFA6D702A62191E008E70DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6DFA6D772A62191E008E70DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DFA6D732A62191E008E70DE /* Build configuration list for PBXProject "Santander" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DFA6D6F2A62191E008E70DE;
+			packageReferences = (
+				6DC0687B2A6E9BDA0025D172 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				6DC0687E2A6E9EFB0025D172 /* XCRemoteSwiftPackageReference "PocketSVG" */,
+				6D593F5A2A6ECF7600888F01 /* XCRemoteSwiftPackageReference "Then" */,
+			);
+			productRefGroup = 6DFA6D792A62191E008E70DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DFA6D772A62191E008E70DE /* Santander */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DFA6D762A62191E008E70DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC068752A6B52510025D172 /* OpenSans_Condensed-Regular.ttf in Resources */,
+				6DC068682A6B17940025D172 /* OpenSans_Condensed-SemiBold.ttf in Resources */,
+				6DFA6D832A621920008E70DE /* Preview Assets.xcassets in Resources */,
+				6DFA6D802A621920008E70DE /* Assets.xcassets in Resources */,
+				6DC068672A6B17940025D172 /* OpenSans_Condensed-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DFA6D742A62191E008E70DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFA6D922A622FD6008E70DE /* Feature.swift in Sources */,
+				6DC068712A6B3A570025D172 /* NewsView.swift in Sources */,
+				6D8B30BC2A6605CA00A57A55 /* HomeViewModel.swift in Sources */,
+				6DFA6D902A622F92008E70DE /* Account.swift in Sources */,
+				6D8B30B62A6418E300A57A55 /* Card.swift in Sources */,
+				6DC0686F2A6B38C30025D172 /* CardView.swift in Sources */,
+				6D593F592A6ECDDA00888F01 /* AccountViewModel.swift in Sources */,
+				6D593F642A6F2DFD00888F01 /* NewsViewModel.swift in Sources */,
+				6DC068602A6AF0010025D172 /* AccountView.swift in Sources */,
+				6DC068642A6B14130025D172 /* NavigationBarAppearance.swift in Sources */,
+				6DC068732A6B515E0025D172 /* PageControlAppearance.swift in Sources */,
+				6DC068622A6AF04A0025D172 /* HomeView.swift in Sources */,
+				6D8B30BA2A64534800A57A55 /* Extensions.swift in Sources */,
+				6D593F622A6F147A00888F01 /* CardViewModel.swift in Sources */,
+				6DC0687A2A6BE75C0025D172 /* News.swift in Sources */,
+				6DC068832A6E9F360025D172 /* AsyncImage.swift in Sources */,
+				6DFA6D8B2A62211C008E70DE /* HomeAPIClient.swift in Sources */,
+				6D593F5E2A6ED1FE00888F01 /* BalanceViewModel.swift in Sources */,
+				6DFA6D8E2A62269A008E70DE /* Home.swift in Sources */,
+				6DFA6D7C2A62191E008E70DE /* SantanderApp.swift in Sources */,
+				6DC0686B2A6B1DD20025D172 /* BalanceView.swift in Sources */,
+				6DC0686D2A6B33740025D172 /* FeatureView.swift in Sources */,
+				6D593F602A6ED48800888F01 /* FeatureViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DFA6D842A621920008E70DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DFA6D852A621920008E70DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DFA6D872A621920008E70DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Santander/Preview Content\"";
+				DEVELOPMENT_TEAM = SC9STAPP9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Santander/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dio.moreira.robson.Santander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DFA6D882A621920008E70DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Santander/Preview Content\"";
+				DEVELOPMENT_TEAM = SC9STAPP9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Santander/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dio.moreira.robson.Santander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DFA6D732A62191E008E70DE /* Build configuration list for PBXProject "Santander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFA6D842A621920008E70DE /* Debug */,
+				6DFA6D852A621920008E70DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DFA6D862A621920008E70DE /* Build configuration list for PBXNativeTarget "Santander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFA6D872A621920008E70DE /* Debug */,
+				6DFA6D882A621920008E70DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D593F5A2A6ECF7600888F01 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		6DC0687B2A6E9BDA0025D172 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		6DC0687E2A6E9EFB0025D172 /* XCRemoteSwiftPackageReference "PocketSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pocketsvg/PocketSVG.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D593F5B2A6ECF7600888F01 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D593F5A2A6ECF7600888F01 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		6DC0687C2A6E9BDA0025D172 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DC0687B2A6E9BDA0025D172 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		6DC0687F2A6E9EFB0025D172 /* PocketSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DC0687E2A6E9EFB0025D172 /* XCRemoteSwiftPackageReference "PocketSVG" */;
+			productName = PocketSVG;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6DFA6D702A62191E008E70DE /* Project object */;
+}
