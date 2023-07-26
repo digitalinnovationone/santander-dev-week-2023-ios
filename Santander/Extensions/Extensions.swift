@@ -10,7 +10,6 @@ import Combine
 import Kingfisher
 
 extension Publisher {
-    
     func tryDecodeResponse<Item, Coder>(type: Item.Type, decoder: Coder) -> Publishers.Decode<Publishers.TryMap<Self, Data>, Item, Coder> where Item: Decodable, Coder: TopLevelDecoder, Self.Output == (data: Data, response: URLResponse) {
         return self
             .tryMap { output in
@@ -24,14 +23,24 @@ extension Publisher {
 }
 
 extension Color {
-    
     static var santanderRed: Color {
         return Color(red: 0.89, green: 0.1, blue: 0.09)
+    }
+    
+    static var santanderGrayishWhite: Color {
+        return Color(red: 0.94, green: 0.94, blue: 0.94)
+    }
+    
+    static var santanderLightGray: Color {
+        return Color(red: 0.76, green: 0.76, blue: 0.76)
+    }
+    
+    static var santanderDarkGray: Color {
+        return Color(red: 0.20, green: 0.20, blue: 0.20)
     }
 }
 
 extension View {
-    
     func navigationBarAppearance(backgroundColor: Color) -> some View {
         self.modifier(NavigationBarAppearance(backgroundColor: UIColor(backgroundColor)))
     }
@@ -52,22 +61,20 @@ extension View {
 }
 
 extension Font {
-    
     static func openSansRegular(size: CGFloat = 11) -> Font {
-        return Font.custom("OpenSans_Condensed-Regular", size: size)
+        return Font.custom("OpenSansCondensed-Regular", size: size)
     }
     
     static func openSansSemiBold(size: CGFloat = 11) -> Font {
-        return Font.custom("OpenSans_Condensed-SemiBold", size: size)
+        return Font.custom("OpenSansCondensed-SemiBold", size: size)
     }
     
     static func openSansBold(size: CGFloat = 11) -> Font {
-        return Font.custom("OpenSans_Condensed-Bold", size: size)
+        return Font.custom("OpenSansCondensed-Bold", size: size)
     }
 }
 
 extension Double {
-    
     func toCurrency() -> String {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .currency
@@ -82,7 +89,6 @@ extension Double {
 }
 
 extension AsyncImage {
-
     init<I, P>(
         from url: URL?,
         frame: CGSize = .zero,
